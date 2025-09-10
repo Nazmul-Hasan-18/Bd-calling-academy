@@ -1,0 +1,70 @@
+.login{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 19px;
+   padding: 70px 0px;
+   
+}
+
+
+
+.login_img img{
+    width: 541px;
+    height: 541px;
+    margin-top: 15px;
+    margin-left: 32px;
+}
+.login_page{
+    margin-top: 110px;
+
+    & h2{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    & p{
+        font-size: 16px;
+
+    }
+}
+.input{
+    margin-top: 30px;
+}
+.input input{
+    width: 85%;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    outline: 1px solid gainsboro;
+    border: none;
+     
+     
+}
+.btn{
+    color: white;
+   background-color: #1796fd ;
+   width: 85%;
+   outline: none;
+   border: none;
+   font-size: 17px;
+   font-family: "Poppins", sans-serif;
+   padding: 10px;
+   margin-top: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .4s;
+
+     }
+.btn:hover{
+    background-color: rgb(32, 32, 32);
+}
+
+.input p{
+    margin-top: 30px;
+}
+.input p span{
+    color: #1796fd;
+    margin-left: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
